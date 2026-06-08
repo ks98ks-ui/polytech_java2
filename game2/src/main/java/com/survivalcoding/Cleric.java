@@ -1,5 +1,7 @@
 package com.survivalcoding;
 
+import java.util.Random;
+
 public class Cleric {
     String name = "Cleric";
     final int MaxHP = 50;
