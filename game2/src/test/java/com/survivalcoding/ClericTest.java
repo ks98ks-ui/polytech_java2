@@ -73,15 +73,15 @@ class ClericTest {
 
         //Then
         assertEquals("아서스", cleric.name);
-        assertEquals(40, cleric.HP);
-        assertEquals(5, cleric.MP);
+        assertEquals(test1, cleric.HP);
+        assertEquals(test2, cleric.MP);
 
         //Given
         Cleric cleric1 = new Cleric("아서스", test3);
 
         //Then
         assertEquals("아서스", cleric1.name);
-        assertEquals(35, cleric1.HP);
+        assertEquals(test3, cleric1.HP);
         assertEquals(10, Cleric.MaxMP);
 
         //Given
