@@ -52,7 +52,7 @@ class ClericTest {
     }
 
     @Test
-    @DisplayName("MaxHP, MaxMP가 필드의 공유 되었습니다.")
+    @DisplayName("MaxHP, MaxMP가 필드의 공유 되어야 한다.")
     void testHPMP() {
         Cleric cleric = new Cleric("name");
 
@@ -62,7 +62,7 @@ class ClericTest {
     }
 
     @Test
-    @DisplayName("이름이 생성이 잘 되었습니다.")
+    @DisplayName("클레릭 생성이 잘 되어야 한다.")
     void con() {
         int test1 = 40;
         int test2 = 5;
