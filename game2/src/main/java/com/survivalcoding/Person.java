@@ -1,7 +1,7 @@
 package com.survivalcoding;
 
 public class Person {
-    private final int age;
+    final int age;
     private String name;
     private int birthYear;
 
@@ -14,14 +14,22 @@ public class Person {
         this.name = name;
     }
 
+    public String getName() {
+        return name;
+    }
+
     public void setBirthYear(int birthYear) {
         this.birthYear = birthYear;
+    }
+
+    public int getBirthYear() {
+        return birthYear;
     }
 
     public static void main(String[] args) {
 
         Person person = new Person("Hong", 1998);
-        System.out.println(person.name);
+        System.out.println(person.getName());
         System.out.println(person.age);
     }
 }
