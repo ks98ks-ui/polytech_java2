@@ -22,7 +22,7 @@ public class Wand {
         return power;
     }
 
-    public void setPower() {
+    public void setPower(double power) {
         if (power < 0.5 || power > 100) {
             throw new IllegalArgumentException("지팡이의 마력은 0.5 이상 100.0 이하여야 한다");
         }
