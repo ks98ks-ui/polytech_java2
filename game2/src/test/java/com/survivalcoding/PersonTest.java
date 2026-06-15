@@ -11,7 +11,7 @@ class PersonTest {
     @Test
     @DisplayName("이름과 나이가 제대로 나와야 한다")
     void test() {
-        String test = "홍길동";
+        String test = "홍길동"; //이름
         int test2 = 1998; // 태어난 날짜
         int test3 = 2026; // 올해 날짜
 
