@@ -6,8 +6,8 @@ import java.util.Map;
 
 public class Person2 {
     public static void main(String[] args) {
-        Person person = new Person();
-        Person person1 = new Person();
+        Person2 person = new Person2();
+        Person2 person1 = new Person2();
         ArrayList<String> names = new ArrayList<String>();
         names.add("홍길동");
         names.add("한석봉");
@@ -28,4 +28,3 @@ public class Person2 {
 
     }
 }
- 
