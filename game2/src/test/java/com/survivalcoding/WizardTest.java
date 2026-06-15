@@ -81,13 +81,15 @@ class WizardTest {
         Wizard wizard = new Wizard();
         Wand wand = new Wand();
         Hero hero = new Hero();
-
-        //When
         wand.setPower(test);
         int basePoint = test2;
         hero.setHp(test3);
+        wizard.setWand(wand);
+
+        //When
+        wizard.heal(hero);
         //Then
-        assertEquals((int) (basePoint * wand.getPower()) + hero.getHp(), test * test2 + test3);
+        assertEquals(test * test2 + test3, hero.getHp());
 
     }
 }
