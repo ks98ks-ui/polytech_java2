@@ -20,8 +20,8 @@ class PoisonSlimeTest {
         PoisonSlime poisonSlime = new PoisonSlime("A");
 
         hero.setHp(testHp);
-        poisonSlime.attack(hero);
         poisonSlime.setPoisonCount(testCount);
+        poisonSlime.attack(hero);
 
         assertEquals(MaxHP - 10 - ((MaxHP - 10) / 5), hero.getHp());
 
