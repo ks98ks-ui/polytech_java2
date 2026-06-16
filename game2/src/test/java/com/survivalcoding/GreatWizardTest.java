@@ -49,9 +49,9 @@ class GreatWizardTest {
     void superHeal() {
         int basePoint = 100; //히어로 클래스 히어로 체력 100설정
         int baseMp = 50;
+        int baseMp2 = 49;
         int testHp = 30;
         int testMp = 50;
-        int baseMp2 = 49;
 
 
         //Given
