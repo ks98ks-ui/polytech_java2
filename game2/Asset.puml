@@ -37,7 +37,8 @@ class Patent extends IntangibleAsset {
 
 }
 interface Thing {
- -double weight
+double getWeight();
+void setWeight(double weight);
 }
 
 
