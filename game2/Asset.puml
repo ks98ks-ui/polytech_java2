@@ -1,17 +1,16 @@
 @startuml
 
-class Asset {
+abstract class Asset {
 -String name
 -int price
 }
 
-class TangibleAsset extends Asset implements Thing{
--double weight
+abstract class TangibleAsset extends Asset implements Thing{
 -String color
 +String name
 +int price
 }
-class IntangibleAsset extends Asset {
+abstract class IntangibleAsset extends Asset {
 +String name
 +int price
 
