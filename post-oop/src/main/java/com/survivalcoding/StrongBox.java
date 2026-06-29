@@ -5,7 +5,7 @@ import static com.survivalcoding.KeyType.*;
 public class StrongBox<UNKNOWN> {
     private UNKNOWN data;
     private int count;
-    private KeyType keyType;
+    private final KeyType keyType;
 
 
     public StrongBox(KeyType keyType) {
