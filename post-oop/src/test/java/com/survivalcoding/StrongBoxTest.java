@@ -16,7 +16,6 @@ class StrongBoxTest {
             assertNull(strongBox.get());
 
         }
-
         assertEquals(KeyType.PADLOCK, strongBox.get());
     }
 }
